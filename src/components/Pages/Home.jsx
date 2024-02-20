@@ -1,4 +1,4 @@
-
+import profilePicture from '../../assets/images/ProfilePicture.jpeg';
 import './Home.css';
 
 const Home = () => {
@@ -6,9 +6,9 @@ const Home = () => {
         <header>
             <div className='text-center'>
                 <div className='text-white'>
-                    <h1 className='mb-3 myName'>Lauren Eaton</h1>
-                    <h4 className='mb-3 myTitle'>Frontend Developer</h4>
+                    <h1 className='mb-3 myName'>Lauren Eaton - Frontend Developer</h1>
                 </div>
+                <img className='profilePicture' src={profilePicture} alt="profile picture"></img>
             </div>
         </header>
     );
