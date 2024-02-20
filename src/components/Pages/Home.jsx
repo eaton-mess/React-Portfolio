@@ -2,7 +2,8 @@ const Home  = () => {
 
     return (
     <>
-    <h1>Welcome to my Portfolio Site!</h1>
+    <h1>Lauren Eaton</h1>
+    <h2>Frontend Developer</h2>
     </>
     )
 }
