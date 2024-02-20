@@ -1,11 +1,17 @@
-const Home  = () => {
 
+import './Home.css';
+
+const Home = () => {
     return (
-    <>
-    <h1>Lauren Eaton</h1>
-    <h2>Frontend Developer</h2>
-    </>
-    )
+        <header>
+            <div className='text-center'>
+                <div className='text-white'>
+                    <h1 className='mb-3 myName'>Lauren Eaton</h1>
+                    <h4 className='mb-3 myTitle'>Frontend Developer</h4>
+                </div>
+            </div>
+        </header>
+    );
 }
 
 export default Home;

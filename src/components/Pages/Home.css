@@ -1,0 +1,14 @@
+header {
+    padding: 0;
+    background-image: url('../../assets/images/blueBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myName, .myTitle {
+    color: black;
+}
