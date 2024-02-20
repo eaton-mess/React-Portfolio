@@ -10,7 +10,7 @@ function MyProjects({ project }) {
                 <Card.Text>
                     {project.description}
                 </Card.Text>
-                <a href=" "> <Button variant="primary">Repo: {project.github}</Button></a>
+                <a href=" "> <Button variant="primary">GitHub Repository: {project.github}</Button></a>
                 <a href=" "> <Button variant="primary">Deployed Site: {project.deployed}</Button></a>
             </Card.Body>
         </Card>
