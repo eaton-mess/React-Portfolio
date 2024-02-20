@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Project 1",
+        "description": "This is my first project",
+        "image": "link to image source",
+        "github": "link to github repo",
+        "deployed": "link to deployed app"
+    },
+    {
+        "id": 2,
+        "title": "Project 2",
+        "description": "This is my second project",
+        "image": "link to image source",
+        "github": "link to github repo",
+        "deployed": "link to deployed app"
+    },
+    {
+        "id": 3,
+        "title": "Project 3",
+        "description": "This is my third project",
+        "image": "link to image source",
+        "github": "link to github repo",
+        "deployed": "link to deployed app"
+    }
+]
