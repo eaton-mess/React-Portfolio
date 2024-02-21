@@ -3,15 +3,17 @@ import Card from 'react-bootstrap/Card';
 
 function ProjectCard({ project }) {
     return (
-        <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={project.image} />
+        <Card style={{ width: "24rem" }}>
             <Card.Body>
                 <Card.Title>{project.title}</Card.Title>
-                <Card.Text>
-                    {project.description}
-                </Card.Text>
-                <a href={project.deployed}><Button variant="primary">Deployed Application</Button></a>
-                <a href={project.github}><Button variant="primary">GitHub Repository</Button></a>
+                <Card.Text>{project.description}</Card.Text>
+                <div style={{ marginBottom: "16px" }}> {/* Margin between image and buttons */}
+                    <Card.Img variant="top" src={project.image} />
+                </div>
+                <div style={{ display: "flex", justifyContent: "center" }}>
+                    <Button variant="success" href={project.deployed} style={{ marginRight: "15px" }}>Deployed</Button>
+                    <Button variant="success" href={project.github}>GitHub</Button>
+                </div>
             </Card.Body>
         </Card>
     );

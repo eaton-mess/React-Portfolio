@@ -3,6 +3,10 @@
     justify-content: space-between;
     align-items: center;
     background-color: black;
+    position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
 }
 
 .footerContent {
@@ -14,4 +18,9 @@
 .homeButton {
     border: 1px solid #fffeef !important;
     color: #fffeef !important;
+}
+
+.footer {
+    margin-top: 3em;
+
 }

@@ -5,7 +5,7 @@ import './index.css';
 function CustomFooter() {
     return (
         <>
-        <Card>
+        <Card className="footer">
             <Card.Body className="customFooter">
                 <Button className="homeButton" variant="outline-dark">Home</Button>
                 <Card.Text className="footerContent">
