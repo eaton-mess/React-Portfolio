@@ -7,7 +7,7 @@ function CustomFooter() {
         <>
         <Card className="footer">
             <Card.Body className="customFooter">
-                <Button className="homeButton" variant="outline-dark">Home</Button>
+                <Button href="/" className="homeButton" variant="outline-dark">Home</Button>
                 <Card.Text className="footerContent">
                         © Lauren Eaton 2024 
                 </Card.Text>

@@ -13,7 +13,14 @@ const Home = () => {
                     Konnichiwa! 🎌 My name is Lauren, a language aficionado turned aspiring web wizard. With a degree in Japanese and over 8 years navigating the labyrinth of translation, I've deciphered intricate linguistic puzzles and fostered cross-cultural connections.</p>
                 <p>
                     However, my love for technology has always whispered in the background like a mischievous spirit. So, armed with a thirst for new challenges, I embarked on an odyssey through the realms of code, setting sail with EdX's Frontend Developer Bootcamp.</p>
-                <img className="portfolioButton" id="button" src={portfolioLogo} alt="button for portfolio page"></img>
+                <a href="/projects">
+                    <img
+                        className="portfolioButton"
+                        id="button"
+                        src={portfolioLogo}
+                        alt="button for portfolio page"
+                    />
+                </a>
             </Container>
         </>
     )
