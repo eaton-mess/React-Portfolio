@@ -15,7 +15,7 @@ function MyNavbar() {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
                         <Nav.Link className="navLink" href="/">home</Nav.Link>
-                        <Nav.Link className="navLink" href="/portfolio">portfolio</Nav.Link>
+                        <Nav.Link className="navLink" href="/projects">portfolio</Nav.Link>
                         <Nav.Link className="navLink" href="/contact">contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
