@@ -1,0 +1,17 @@
+.customFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.footerContent {
+    color: #fffeef !important;
+    background-color: black;
+    margin: 0.5em;
+}
+
+.homeButton {
+    border: 1px solid #fffeef !important;
+    color: #fffeef !important;
+}

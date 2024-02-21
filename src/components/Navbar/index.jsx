@@ -1,18 +1,22 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import nameLogo from '../../assets/images/NameLogo.png';
+import './index.css'
 
-function MyNav() {
+function MyNavbar() {
     return (
-        <Navbar expand="lg" className="bg-body-tertiary">
+        <Navbar expand="lg" className="customNav">
             <Container>
-                <Navbar.Brand href="#home">Lauren Eaton</Navbar.Brand>
+                <Navbar.Brand id="navTitle" href="/">
+                    <img id="NameLogo" className="nameLogo" src={nameLogo} alt="nav logo"></img>
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto">
-                        <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="/portfolio">Portfolio</Nav.Link>
-                        <Nav.Link href="/contact">Contact</Nav.Link>
+                    <Nav className="ml-auto">
+                        <Nav.Link className="navLink" href="/">home</Nav.Link>
+                        <Nav.Link className="navLink" href="/portfolio">portfolio</Nav.Link>
+                        <Nav.Link className="navLink" href="/contact">contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
@@ -20,4 +24,4 @@ function MyNav() {
     );
 }
 
-export default MyNav;
+export default MyNavbar

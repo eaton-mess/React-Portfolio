@@ -1,0 +1,30 @@
+* {
+    background-color: #fffeef;
+}
+
+.profilePicture {
+    width: 15em;
+    margin: auto;
+    border-radius: 50%;
+    max-width: 15em;
+    padding: 0.3125em;
+    border: black 0.1875em solid;
+}
+
+.aboutMeText {
+    padding-top: 3em;
+}
+
+p {
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+h1 {
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.portfolioButton {
+    padding-top: 3em;
+}
