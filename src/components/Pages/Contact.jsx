@@ -6,13 +6,12 @@ const Contact = () => {
             <a href='l.elizabeth.eaton@gmail.com'>
                 <h2>Email</h2>
             </a>
-            <a href=''>
+            <a href='https://github.com/eatontechnology'>
                 <h2>GitHub</h2>
             </a>
-            <a href=''>
+            <a href='https://www.linkedin.com/in/lelizabetheaton1996/'>
                 <h2>LinkedIn</h2>
             </a>
-            <h2>Contact Me!</h2>
         </>
     )
 }

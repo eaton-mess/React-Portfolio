@@ -7,7 +7,7 @@ function ProjectCard({ project }) {
             <Card.Body>
                 <Card.Title>{project.title}</Card.Title>
                 <Card.Text>{project.description}</Card.Text>
-                <div style={{ marginBottom: "16px" }}> {/* Margin between image and buttons */}
+                <div>
                     <Card.Img variant="top" src={project.image} />
                 </div>
                 <div style={{ display: "flex", justifyContent: "center" }}>

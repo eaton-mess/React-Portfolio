@@ -12,11 +12,11 @@ const Projects = () => {
                     Discover my portfolio!
                 </h5>
             </div>
-            <Row xs={1} sm={2} md={2} className="g-4">
+            <Row xs={1} sm={1} md={2} className="g-4">
                 {projects.map((project) => (
                     <Col key={project.id}>
                         <Card
-                            className="h-100 mainCard"
+                            className="h-100 projectCard"
                             style={{ minWidth: "150px", margin: "2em" }}
                         >
                             <Card.Body>
@@ -24,6 +24,7 @@ const Projects = () => {
                                     style={{
                                         padding: "0.25em",
                                         color: "black",
+                                        marginBottom: "0.5em", 
                                     }}
                                 >
                                     {project.title}
@@ -36,7 +37,7 @@ const Projects = () => {
                                 src={project.image}
                                 style={{
                                     height: "300px",
-                                    objectFit: "cover",
+                                    objectFit: "cover", 
                                 }}
                             />
 
