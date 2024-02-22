@@ -1,17 +1,12 @@
+import ContactLogo from '../../assets/images/ContactLogo.png';
+import './index.css';
+
 const Contact = () => {
 
     return (
         <>
-            <h1>Contact Info</h1>
-            <a href='l.elizabeth.eaton@gmail.com'>
-                <h2>Email</h2>
-            </a>
-            <a href='https://github.com/eatontechnology'>
-                <h2>GitHub</h2>
-            </a>
-            <a href='https://www.linkedin.com/in/lelizabetheaton1996/'>
-                <h2>LinkedIn</h2>
-            </a>
+            <h5>Click the button to keep in touch!</h5>
+            <img className="contactLogo" src={ContactLogo} />
         </>
     )
 }

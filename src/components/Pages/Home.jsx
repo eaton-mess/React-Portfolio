@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import profilePicture from '../../assets/images/ProfilePicture.jpeg';
 import portfolioLogo from '../../assets/images/PortfolioLogo.png';
-import './Home.css'
+import './index.css'
 
 const Home = () => {
     return (

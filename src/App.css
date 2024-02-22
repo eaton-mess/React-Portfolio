@@ -4,8 +4,10 @@
   margin: 0 auto;
   text-align: center;
   font-family: 'Fira Code';
+  overflow-x: hidden;
 }
 
 nav {
   width: 100vw;
 }
+

@@ -34,3 +34,13 @@ h1 {
 .portfolioButton:hover {
     transform: scale(1.1);
 }
+
+.contactLogo {
+    max-width: 30em;
+    transition: transform 0.3s ease;
+    padding-top: 3em;
+}
+
+.contactLogo:hover {
+    transform: scale(1.1);
+}
