@@ -7,7 +7,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 const SocialsTab = () => {
     return (
         <Nav className="ml-auto" style={{ position: 'fixed', top: '0', right: '20px', maxWidth: '15em', background: 'black' }}>
-            <Nav.Link>
+            <Nav.Link href="https://github.com/eatontechnology/" target="_blank">
                 <FontAwesomeIcon icon={faGithubSquare}
                     style={{
                         color: 'white',
@@ -15,7 +15,7 @@ const SocialsTab = () => {
                     }}
                     size="2x" />
             </Nav.Link>
-            <Nav.Link>
+            <Nav.Link href="https://www.linkedin.com/in/lelizabetheaton1996/" target="_blank">
                 <FontAwesomeIcon icon={faLinkedin}
                     style={{
                         color: 'white',
@@ -23,7 +23,7 @@ const SocialsTab = () => {
                     }}
                     size="2x" />
             </Nav.Link>
-            <Nav.Link>
+            <Nav.Link href="https://www.instagram.com/eaton_messs/" target="_blank">
                 <FontAwesomeIcon icon={faInstagramSquare}
                     style={{
                         color: 'white',
@@ -31,7 +31,7 @@ const SocialsTab = () => {
                     }}
                     size="2x" />
             </Nav.Link>
-            <Nav.Link>
+            <Nav.Link href="https://drive.google.com/file/d/1aGbPapXGVhgwpIJC7SizT-Fp-moFJAxe/view?usp=drive_link" target="_blank">
                 <FontAwesomeIcon icon={faBars}
                     style={{
                         color: 'white',
