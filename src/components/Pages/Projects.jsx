@@ -17,7 +17,10 @@ const Projects = () => {
                     <Col key={project.id}>
                         <Card
                             className="h-100 projectCard"
-                            style={{ minWidth: "150px", margin: "2em" }}
+                            style={{ 
+                            minWidth: "150px", 
+                            margin: "2em",
+                            border: "1px solid black" }}
                         >
                             <Card.Body>
                                 <Card.Title
@@ -29,7 +32,7 @@ const Projects = () => {
                                 >
                                     {project.title}
                                 </Card.Title>
-                                <Card.Text>{project.description}</Card.Text>
+                                <Card.Text style={{ marginBottom: "-4em" }}>{project.description}</Card.Text>
                             </Card.Body>
 
                             <Card.Img
