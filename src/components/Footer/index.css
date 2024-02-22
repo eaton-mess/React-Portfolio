@@ -3,10 +3,10 @@
     justify-content: space-between;
     align-items: center;
     background-color: black;
-    position: absolute;
-        left: 0;
-        bottom: 0;
-        width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .footerContent {
