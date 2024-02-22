@@ -6,18 +6,38 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 const SocialsTab = () => {
     return (
-        <Nav className="ml-auto" style={{ position: 'fixed', top: '20px', right: '20px', width: '5cm', background: 'black', borderRadius: '10px' }}>
+        <Nav className="ml-auto" style={{ position: 'fixed', top: '0', right: '20px', maxWidth: '15em', background: 'black' }}>
             <Nav.Link>
-                <FontAwesomeIcon icon={faGithubSquare} />
+                <FontAwesomeIcon icon={faGithubSquare}
+                    style={{
+                        color: 'white',
+                        backgroundColor: 'transparent'
+                    }}
+                    size="2x" />
             </Nav.Link>
             <Nav.Link>
-                <FontAwesomeIcon icon={faLinkedin} />
+                <FontAwesomeIcon icon={faLinkedin}
+                    style={{
+                        color: 'white',
+                        backgroundColor: 'transparent'
+                    }}
+                    size="2x" />
             </Nav.Link>
             <Nav.Link>
-                <FontAwesomeIcon icon={faInstagramSquare} />
+                <FontAwesomeIcon icon={faInstagramSquare}
+                    style={{
+                        color: 'white',
+                        backgroundColor: 'transparent'
+                    }}
+                    size="2x" />
             </Nav.Link>
             <Nav.Link>
-                <FontAwesomeIcon icon={faBars} />
+                <FontAwesomeIcon icon={faBars}
+                    style={{
+                        color: 'white',
+                        backgroundColor: 'transparent',
+                    }}
+                    size="2x" />
             </Nav.Link>
         </Nav>
     );
