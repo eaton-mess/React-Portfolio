@@ -45,7 +45,7 @@ The deployed application can be found via Netlify here: https://lauren-eaton-por
 ## Author
 
 Lauren Eaton
-https://github.com/eatontechnology
+https://github.com/eaton-mess
 
 ## Acknowledgements
 
