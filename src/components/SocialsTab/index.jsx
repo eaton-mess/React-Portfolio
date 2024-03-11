@@ -7,7 +7,7 @@ import { faFolder } from '@fortawesome/free-solid-svg-icons';
 const SocialsTab = () => {
     return (
         <Nav className="ml-auto" style={{ position: 'fixed', top: '0', right: '20px', maxWidth: '16em', background: 'black' }}>
-            <Nav.Link href="https://github.com/eatontechnology/" target="_blank">
+            <Nav.Link href="https://github.com/eaton-mess/" target="_blank">
                 <FontAwesomeIcon icon={faGithubSquare}
                     style={{
                         color: 'white',
