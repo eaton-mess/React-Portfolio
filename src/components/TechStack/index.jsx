@@ -1,9 +1,12 @@
 import React from 'react';
+import TechImage from '../../assets/images/techstack.png';
 
-function TechStack = () => {
+const TechStack = () => {
     return (
-        
+        <>
+            <img src={TechImage} alt="tech stack" />
+        </>
     )
 }
 
-export default TeckStack;
+export default TechStack;
