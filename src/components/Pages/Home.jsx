@@ -20,7 +20,7 @@ const Home = () => {
     };
 
     useEffect(() => {
-        gsap.from(".profilePicture", { opacity: 0, x: -100, duration: 1, delay: 0.5 });
+        gsap.from(".profilePicture", { opacity: 0, y: +100, duration: 1, delay: 0.5 });
         gsap.from("h1", { opacity: 0, y: -100, duration: 1, delay: 0.5 });
     }, []);
 
