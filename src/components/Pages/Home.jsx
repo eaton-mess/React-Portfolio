@@ -41,15 +41,18 @@ const Home = () => {
                 }
             });
         });
-    }, []);
+    }, 
+    []);
 
 
     return (
         <>
             <Container className="heroSection">
-                <h1>Lauren Eaton</h1>
+                <h1 style={{
+                    marginTop: '2em'
+                }}>Lauren Eaton</h1>
                 <h3 style={{
-                    marginBottom: '3em'
+                    marginBottom: '4em'
                 }}>Frontend Developer</h3>
                 <img className="profilePicture" id="headshot" src={profilePicture} alt="profile picture" />
                 <p className="aboutMeText fadeInOnScroll" id="aboutMeText">
