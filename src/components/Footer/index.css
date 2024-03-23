@@ -3,20 +3,20 @@
     justify-content: space-between;
     align-items: center;
     background-color: black;
-    left: 0;
     bottom: 0;
-    width: 100%;
-}
-
-.footerContent {
-    color: #fffeef !important;
-    background-color: black;
-    margin: 0.5em;
+    width: 100vw;
 }
 
 .scrollToTopButton {
     border: 1px solid #fffeef !important;
     color: #fffeef !important;
+}
+
+.footerText {
+    color:#fffeef;
+    background-color: black;
+    margin-right: -25em;
+    padding-top: 2em;
 }
 
 .footer {
