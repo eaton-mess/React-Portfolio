@@ -1,8 +1,12 @@
+.techStackContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 .techStack {
-    margin: auto;
     transition: transform 0.3s ease;
-    padding-top: 5em;
-    padding-bottom: 3em;
 }
 
 .techStack:hover {

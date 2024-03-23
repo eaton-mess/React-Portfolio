@@ -4,9 +4,9 @@ import './index.css';
 
 const TechStack = () => {
     return (
-        <>
+        <div className="techStackContainer">
             <img className="techStack" src={TechImage} alt="tech stack" />
-        </>
+        </div>
     )
 }
 
