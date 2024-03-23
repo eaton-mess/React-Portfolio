@@ -4,7 +4,10 @@ import profilePicture from '../../assets/images/ProfilePicture.jpeg';
 import portfolioLogo from '../../assets/images/PortfolioLogo.png';
 import TechStack from '../TechStack';
 import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger"; // Import ScrollTrigger from GSAP
 import './index.css';
+
+gsap.registerPlugin(ScrollTrigger); // Register ScrollTrigger plugin
 
 const Home = () => {
     const [texts, setTexts] = useState({
@@ -22,6 +25,22 @@ const Home = () => {
     useEffect(() => {
         gsap.from(".profilePicture", { opacity: 0, x: -100, duration: 1, delay: 0.5 });
         gsap.from("h1, h3", { opacity: 0, x: +100, duration: 1, delay: 0.5 });
+
+        // Animating paragraphs when they come into view on scroll
+        const paragraphs = document.querySelectorAll('.fadeInOnScroll');
+        paragraphs.forEach(paragraph => {
+            gsap.from(paragraph, {
+                opacity: 0,
+                y: 50,
+                duration: 1,
+                scrollTrigger: {
+                    trigger: paragraph,
+                    start: 'top 90%', // Adjust this value based on when you want the animation to start
+                    end: 'bottom 10%', // Adjust this value based on when you want the animation to end
+                    toggleActions: 'play none none none' // Adjust toggle actions as needed
+                }
+            });
+        });
     }, []);
 
 
