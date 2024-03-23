@@ -35,8 +35,8 @@ const Home = () => {
                 duration: 1,
                 scrollTrigger: {
                     trigger: paragraph,
-                    start: 'top 90%', // Adjust this value based on when you want the animation to start
-                    end: 'bottom 10%', // Adjust this value based on when you want the animation to end
+                    start: 'top 50%', // Adjust this value based on when you want the animation to start
+                    end: 'bottom 50%', // Adjust this value based on when you want the animation to end
                     toggleActions: 'play none none none' // Adjust toggle actions as needed
                 }
             });
