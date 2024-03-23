@@ -15,7 +15,6 @@ function CustomFooter() {
         <Card className="footer">
             <Card.Body className="customFooter">
                 <Button onClick={handleScrollToTop} className="scrollToTopButton" variant="outline-dark">Top</Button>
-                <p className="footerText">© Lauren Eaton 2024</p>
             </Card.Body>
         </Card>
     );
