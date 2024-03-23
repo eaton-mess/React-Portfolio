@@ -45,7 +45,10 @@ const Home = () => {
     return (
         <>
             <Container className="heroSection">
-                <h1>Lauren Eaton - Developer</h1>
+                <h1>Lauren Eaton</h1>
+                <h3 style={{
+                    marginBottom: '3em'
+                }}>Frontend Developer</h3>
                 <img className="profilePicture" id="headshot" src={profilePicture} alt="profile picture" />
                 <p className="aboutMeText fadeInOnScroll" id="aboutMeText">
                     <span onMouseEnter={() => handleTextChange('greeting', 'Nice to meet you')} onMouseLeave={() => handleTextChange('greeting', '初めまして')}>
