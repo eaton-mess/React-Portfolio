@@ -20,8 +20,26 @@ const Home = () => {
     };
 
     useEffect(() => {
-        gsap.from(".profilePicture", { opacity: 0, x: -100, duration: 1, delay: 0.5 });
-        gsap.from("h1", { opacity: 0, x: +100, duration: 1, delay: 0.5 });
+        const fadeOnScroll = () => {
+            const paragraphs = document.querySelectorAll('.fadeInOnScroll');
+            paragraphs.forEach(paragraph => {
+                const topPosition = paragraph.getBoundingClientRect().top;
+                const bottomPosition = paragraph.getBoundingClientRect().bottom;
+
+                const windowHeight = window.innerHeight;
+                if (topPosition < windowHeight && bottomPosition > 0) {
+                    gsap.to(paragraph, { opacity: 1, duration: 1 });
+                }
+            });
+        };
+
+        fadeOnScroll();
+
+        window.addEventListener('scroll', fadeOnScroll);
+
+        return () => {
+            window.removeEventListener('scroll', fadeOnScroll);
+        };
     }, []);
 
     return (
@@ -29,19 +47,21 @@ const Home = () => {
             <Container className="heroSection">
                 <h1>Lauren Eaton - Developer</h1>
                 <img className="profilePicture" id="headshot" src={profilePicture} alt="profile picture" />
-                <p className="aboutMeText" id="aboutMeText">
+                <p className="aboutMeText fadeInOnScroll" id="aboutMeText">
                     <span onMouseEnter={() => handleTextChange('greeting', 'Nice to meet you')} onMouseLeave={() => handleTextChange('greeting', '初めまして')}>
                         {texts.greeting}
                     </span>
                 </p>
-                <p>
-                    My name is Lauren, a language aficionado turned aspiring web wizard. With a degree in Japanese and over 8 years navigating the labyrinth of translation, I've deciphered intricate linguistic puzzles and fostered cross-cultural connections.</p>
-                <p>
-                    However, my love for technology has always whispered in the background like a mischievous spirit. So, armed with a thirst for new challenges, I embarked on an odyssey through the realms of code, setting sail with EdX's Frontend Developer Bootcamp.</p>
-                <p>
+                <p className="fadeInOnScroll">
+                    My name is Lauren, a language aficionado turned aspiring web wizard. With a degree in Japanese and over 8 years navigating the labyrinth of translation, I've deciphered intricate linguistic puzzles and fostered cross-cultural connections.
+                </p>
+                <p className="fadeInOnScroll">
+                    With a profound love for technology as my compass, I embarked on a journey through code, commencing with a Frontend Developer Bootcamp. This expedition has equipped me with the skills to craft intuitive user interfaces and navigate the intricate landscape of web development. Fueled by a relentless pursuit of excellence, I approach each project as an opportunity for growth and innovation.
+                </p>
+                <p className="fadeInOnScroll">
                     Please do dive in!
                 </p>
-                <p className="aboutMeText" id="aboutMeText">
+                <p className="aboutMeText fadeInOnScroll" id="aboutMeText">
                     <span onMouseEnter={() => handleTextChange('invitation', 'Welcome')} onMouseLeave={() => handleTextChange('invitation', 'どうぞ')}>
                         {texts.invitation}
                     </span>
