@@ -20,27 +20,10 @@ const Home = () => {
     };
 
     useEffect(() => {
-        const fadeOnScroll = () => {
-            const paragraphs = document.querySelectorAll('.fadeInOnScroll');
-            paragraphs.forEach(paragraph => {
-                const topPosition = paragraph.getBoundingClientRect().top;
-                const bottomPosition = paragraph.getBoundingClientRect().bottom;
-
-                const windowHeight = window.innerHeight;
-                if (topPosition < windowHeight && bottomPosition > 0) {
-                    gsap.to(paragraph, { opacity: 1, duration: 1 });
-                }
-            });
-        };
-
-        fadeOnScroll();
-
-        window.addEventListener('scroll', fadeOnScroll);
-
-        return () => {
-            window.removeEventListener('scroll', fadeOnScroll);
-        };
+        gsap.from(".profilePicture", { opacity: 0, x: -100, duration: 1, delay: 0.5 });
+        gsap.from("h1, h3", { opacity: 0, x: +100, duration: 1, delay: 0.5 });
     }, []);
+
 
     return (
         <>
