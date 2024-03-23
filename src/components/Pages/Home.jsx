@@ -35,25 +35,25 @@ const Home = () => {
                 duration: 1,
                 scrollTrigger: {
                     trigger: paragraph,
-                    start: 'top 50%', // Adjust this value based on when you want the animation to start
-                    end: 'bottom 50%', // Adjust this value based on when you want the animation to end
-                    toggleActions: 'play none none none' // Adjust toggle actions as needed
+                    start: 'top 50%',
+                    end: 'bottom 50%',
+                    toggleActions: 'play none none none'
                 }
             });
         });
-    }, 
-    []);
 
+        // Fade in the portfolio logo
+        gsap.from("#button", { opacity: 0, y: 50, duration: 1, delay: 0.5, scrollTrigger: { trigger: "#button", start: 'top 50%', end: 'bottom 50%', toggleActions: 'play none none none' } });
+
+        // Fade in the TechStack component
+        gsap.from(".techStack", { opacity: 0, y: 50, duration: 1, delay: 0.5, scrollTrigger: { trigger: ".techStack", start: 'top 50%', end: 'bottom 50%', toggleActions: 'play none none none' } });
+    }, []);
 
     return (
         <>
             <Container className="heroSection">
-                <h1 style={{
-                    marginTop: '2em'
-                }}>Lauren Eaton</h1>
-                <h3 style={{
-                    marginBottom: '4em'
-                }}>Frontend Developer</h3>
+                <h1 style={{ marginTop: '2em' }}>Lauren Eaton</h1>
+                <h3 style={{ marginBottom: '4em' }}>Frontend Developer</h3>
                 <img className="profilePicture" id="headshot" src={profilePicture} alt="profile picture" />
                 <p className="aboutMeText fadeInOnScroll" id="aboutMeText">
                     <span onMouseEnter={() => handleTextChange('greeting', 'Nice to meet you')} onMouseLeave={() => handleTextChange('greeting', '初めまして')}>
