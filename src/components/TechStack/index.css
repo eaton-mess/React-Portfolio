@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    position: relative;
 }
 
 .techStack {
@@ -12,4 +13,19 @@
 .techStack:hover {
     transform: scale(1.1);
     cursor: pointer;
+}
+
+.logosContainer {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 3em;
+    padding: 1.5em;
 }
