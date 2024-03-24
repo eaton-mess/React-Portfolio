@@ -22,32 +22,32 @@ const Home = () => {
         }));
     };
 
-    // useEffect(() => {
-    //     gsap.from(".profilePicture", { opacity: 0, x: -100, duration: 1, delay: 0.5 });
-    //     gsap.from("h1, h3", { opacity: 0, x: +100, duration: 1, delay: 0.5 });
+    useEffect(() => {
+        gsap.from(".profilePicture", { opacity: 0, x: -100, duration: 1, delay: 0.5 });
+        gsap.from("h1, h3", { opacity: 0, x: +100, duration: 1, delay: 0.5 });
 
-    //     // Animating paragraphs when they come into view on scroll
-    //     const paragraphs = document.querySelectorAll('.fadeInOnScroll');
-    //     paragraphs.forEach(paragraph => {
-    //         gsap.from(paragraph, {
-    //             opacity: 0,
-    //             y: 50,
-    //             duration: 1,
-    //             scrollTrigger: {
-    //                 trigger: paragraph,
-    //                 start: 'top 50%',
-    //                 end: 'bottom 50%',
-    //                 toggleActions: 'play none none none'
-    //             }
-    //         });
-    //     });
+        // Animating paragraphs when they come into view on scroll
+        const paragraphs = document.querySelectorAll('.fadeInOnScroll');
+        paragraphs.forEach(paragraph => {
+            gsap.from(paragraph, {
+                opacity: 0,
+                y: 50,
+                duration: 1,
+                scrollTrigger: {
+                    trigger: paragraph,
+                    start: 'top 50%',
+                    end: 'bottom 50%',
+                    toggleActions: 'play none none none'
+                }
+            });
+        });
 
-    //     // Fade in the portfolio logo
-    //     gsap.from("#button", { opacity: 0, y: 50, duration: 1, delay: 0.5, scrollTrigger: { trigger: "#button", start: 'top 50%', end: 'bottom 50%', toggleActions: 'play none none none' } });
+        // Fade in the portfolio logo
+        gsap.from("#button", { opacity: 0, y: 50, duration: 1, delay: 0.5, scrollTrigger: { trigger: "#button", start: 'top 50%', end: 'bottom 50%', toggleActions: 'play none none none' } });
 
-    //     // Fade in the TechStack component
-    //     gsap.from(".techStack", { opacity: 0, y: 50, duration: 1, delay: 0.5, scrollTrigger: { trigger: ".techStack", start: 'top 50%', end: 'bottom 50%', toggleActions: 'play none none none' } });
-    // }, []);
+        // Fade in the TechStack component
+        gsap.from(".techStack", { opacity: 0, y: 50, duration: 1, delay: 0.5, scrollTrigger: { trigger: ".techStack", start: 'top 50%', end: 'bottom 50%', toggleActions: 'play none none none' } });
+    }, []);
 
     return (
         <>
