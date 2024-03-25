@@ -8,6 +8,7 @@
 
 .techStack {
     transition: transform 0.3s ease;
+    margin-left: 2em;
 }
 
 .techStack:hover {
@@ -23,10 +24,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-bottom: 1em;
 }
 
 .logo {
     height: 3em;
     padding: 1.5em;
-    width: 90%;
 }

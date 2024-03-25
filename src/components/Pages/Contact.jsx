@@ -11,7 +11,10 @@ const Contact = () => {
 
     return (
         <>
-            <h5>Click the button to keep in touch!</h5>
+            <h5 style={{
+                marginTop: '2em',
+                marginBottom: '2em'
+            }}>Click the button to keep in touch!</h5>
             <img className="contactLogo" src={ContactLogo} alt="Contact" onClick={openModal} />
             {showModal && <ContactModal onClose={closeModal} />}
         </>

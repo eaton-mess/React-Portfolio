@@ -22,17 +22,13 @@ const Projects = () => {
                             margin: "2em",
                             border: "1px solid black" }}
                         >
-                            <Card.Body>
-                                <Card.Title
-                                    style={{
-                                        padding: "0.25em",
-                                        color: "black",
-                                        marginBottom: "0.5em", 
-                                    }}
-                                >
+                            <Card.Body style={{ paddingBottom: "0.5em", marginBottom: "-4em" }}>
+                                <Card.Title style={{ marginBottom: "0.5em", color: "black" }}>
                                     {project.title}
                                 </Card.Title>
-                                <Card.Text style={{ marginBottom: "-4em" }}>{project.description}</Card.Text>
+                                <Card.Text style={{ marginBottom: "-1em" }}>
+                                    {project.description}
+                                </Card.Text>
                             </Card.Body>
 
                             <Card.Img
@@ -40,9 +36,11 @@ const Projects = () => {
                                 src={project.image}
                                 style={{
                                     height: "300px",
-                                    objectFit: "cover", 
+                                    objectFit: "cover",
+                                    marginTop: "-1em", // Adjust this value as needed
                                 }}
                             />
+
 
                             <div style={{ display: "flex", justifyContent: "center" }}>
                                 <Button

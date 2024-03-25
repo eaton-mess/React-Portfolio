@@ -46,21 +46,21 @@ function ContactModal({ onClose }) {
                 <Modal.Body>
                     <Form onSubmit={formSubmit}>
                         <Form.Group as={Row} className="mb-3" controlId="formPlaintextName">
-                            <Form.Label column sm="2">Name</Form.Label>
+                            <Form.Label column sm="2">name</Form.Label>
                             <Col sm="10">
                                 <Form.Control type="text" name="name" value={formData.name} onChange={handleAction} placeholder="Enter your name" />
                             </Col>
                         </Form.Group>
 
                         <Form.Group as={Row} className="mb-3" controlId="formPlaintextEmail">
-                            <Form.Label column sm="2">Email</Form.Label>
+                            <Form.Label column sm="2">email</Form.Label>
                             <Col sm="10">
                                 <Form.Control type="email" name="email" value={formData.email} onChange={handleAction} placeholder="Enter your email" />
                             </Col>
                         </Form.Group>
 
                         <Form.Group as={Row} className="mb-3" controlId="formPlaintextMessage">
-                            <Form.Label column sm="2">Message</Form.Label>
+                            <Form.Label column sm="2">message</Form.Label>
                             <Col sm="10">
                                 <Form.Control as="textarea" name="message" value={formData.message} onChange={handleAction} placeholder="Enter your message" rows={3} />
                             </Col>
