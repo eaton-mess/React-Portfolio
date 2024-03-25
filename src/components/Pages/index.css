@@ -39,7 +39,7 @@ h1 {
 
 .contactLogo {
     transition: transform 0.3s ease !important;
-    margin-bottom: 2em;
+    margin-bottom: 4em;
 }
 
 .contactLogo:hover {
