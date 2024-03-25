@@ -1,10 +1,13 @@
 .customFooter {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: black;
-    bottom: 0;
-    width: 100vw;
+    padding: 1em;
 }
 
 .scrollToTopButton {
@@ -13,6 +16,5 @@
 }
 
 .footer {
-    margin-top: 5em;
     border: none !important;
 }
