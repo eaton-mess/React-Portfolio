@@ -51,9 +51,9 @@
         "id": 7,
         "title": "CourseConnect",
         "description": "This project implements a web form with validation for name, email, and credit/debit card number inputs.",
-        "image": "https://github.com/eatontechnology/Software-Dev-Work-Trial/blob/main/assets/images/Screenshot%202024-02-19%20at%2016.21.15.png?raw=true",
-        "github": "https://github.com/eatontechnology/Software-Dev-Work-Trial",
-        "deployed": "https://eatontechnology.github.io/Software-Dev-Work-Trial/"
+        "image": "https://github.com/eaton-mess/Course-Connect/blob/main/assets/images/Screenshot%202024-02-19%20at%2016.21.15.png?raw=true",
+        "github": "https://github.com/eaton-mess/Course-Connect",
+        "deployed": "https://eaton-mess.github.io/Course-Connect/"
     },
     {
         "id": 8,
