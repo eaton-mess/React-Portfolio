@@ -23,8 +23,8 @@ const Home = () => {
 
 
             <div className="portfolio">
-                <p>Portfolio</p>
-                <p>(click here)</p>
+                <p id="title">Portfolio</p>
+                <p id="clickMe">(click me)</p>
             </div>
 
             <div className="imageContainer">
@@ -32,8 +32,8 @@ const Home = () => {
             </div>
 
             <div className="techStack">
-                <p>Tech Stack</p>
-                <p>(click me)</p>
+                <p id="title">Tech Stack</p>
+                <p id="clickMe">(click me)</p>
             </div>
 
         </>

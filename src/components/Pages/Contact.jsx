@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ContactLogo from '../../assets/images/ContactLogo.png';
+import ContactLogo from '../../assets/images/contact-me.png';
 import ContactModal from '../ContactModal';
 import './index.css';
 

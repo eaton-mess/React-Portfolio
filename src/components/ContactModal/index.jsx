@@ -70,7 +70,7 @@ function ContactModal({ onClose }) {
 
                 <Modal.Footer
                     style={{
-                        backgroundColor: 'black'
+                        backgroundColor: '#c27280'
                     }}>
 
                     <Button className="cancelButton" variant="outline-dark" onClick={onClose}

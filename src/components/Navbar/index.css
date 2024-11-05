@@ -1,9 +1,9 @@
 .customNav {
-    background-color: #fffeef;
+    background-color: transparent;
 }
 
 .nameLogo {
-    width: 5em;
+    width: 150px;
     transition: transform 0.3s ease;
 }
 
@@ -12,5 +12,32 @@
 }
 
 .navLink {
+    position: relative;
     margin: 2em;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+/* Add underline on hover */
+.navLink::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: #ca8390;
+    transition: width 0.3s ease;
+}
+
+/* Expand underline on hover */
+.navLink:hover::after {
+    width: 100%;
+}
+
+/* Keep underline on active nav item */
+.navLink.active::after {
+    width: 100%;
 }

@@ -1,12 +1,11 @@
 /* Intro section */
 .intro, .intro p {
-    background-color: #d6cdb1;
+    background-color: #ca8390;
     margin: 20px 20px;
 }
 
 .intro p {
     padding: 30px 0;
-    margin: 0 100px;
 }
 
 
@@ -20,7 +19,7 @@
 }
 
 .portfolio, .portfolio p {
-    background-color: #cca08d;
+    background-color: #d9a7b0;
     margin: 20px 20px;
 }
 
@@ -41,7 +40,7 @@
 
 .techStack,
 .techStack p {
-    background-color: #b8807a;
+    background-color: #e8cbd0;
     margin: 20px 20px;
 }
 
@@ -50,3 +49,10 @@
     margin: 0 100px;
 }
 
+#clickMe {
+    padding: 0 0 10px 0;
+}
+
+#title {
+    padding: 10px 0;
+}

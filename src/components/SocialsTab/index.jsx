@@ -5,7 +5,7 @@ import { faGithubSquare, faLinkedin, faInstagramSquare } from '@fortawesome/free
 
 const SocialsTab = () => {
     return (
-        <Nav className="ml-auto" style={{ position: 'fixed', top: '0', right: '5.5em', maxWidth: '16em', background: 'black', zIndex: '9999' }}>
+        <Nav className="ml-auto" style={{ position: 'fixed', top: '0', right: '5.5em', maxWidth: '16em', background: '#c27280', zIndex: '9999' }}>
             <Nav.Link href="https://github.com/eaton-mess/" target="_blank">
                 <FontAwesomeIcon icon={faGithubSquare}
                     style={{
