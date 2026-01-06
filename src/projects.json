@@ -19,33 +19,33 @@
         "id": 3,
         "title": "Eurovision Quiz!",
         "description": "A fun little quiz based around Eurovision, utilising the skills we learned with JavaScript.",
-        "image": "https://github.com/eatontechnology/Javascript-EuroVision-Quiz/blob/main/assets/images/Screenshot%202024-01-02%20at%2021.18.20.png?raw=true",
-        "github": "https://github.com/eatontechnology/Javascript-EuroVision-Quiz",
-        "deployed": "https://eatontechnology.github.io/Javascript-EuroVision-Quiz/"
+        "image": "https://github.com/eaton-mess/Javascript-EuroVision-Quiz/blob/main/assets/images/Screenshot%202024-01-02%20at%2021.18.20.png?raw=true",
+        "github": "https://github.com/eaton-mess/Javascript-EuroVision-Quiz",
+        "deployed": "https://eaton-mess.github.io/Javascript-EuroVision-Quiz/"
     },
     {
         "id": 4,
         "title": "Work Day Scheduler",
         "description": "Application utilising jQuery to create a Work Day Schedule using local.storage and day.js.",
-        "image": "https://github.com/eatontechnology/WorkDay-Scheduler-Challenge/blob/main/assets/images/%20screenshot.png?raw=true",
-        "github": "https://github.com/eatontechnology/WorkDay-Scheduler-Challenge",
-        "deployed": "https://eatontechnology.github.io/WorkDay-Scheduler-Challenge/"
+        "image": "https://github.com/eaton-mess/WorkDay-Scheduler-Challenge/blob/main/assets/images/%20screenshot.png?raw=true",
+        "github": "https://github.com/eaton-mess/WorkDay-Scheduler-Challenge",
+        "deployed": "https://eaton-mess.github.io/WorkDay-Scheduler-Challenge/"
     },
     {
         "id": 5,
         "title": "Weather Dashboard",
         "description": "Application using a third-party API to collect data not only on today's weather forecast, but collecting data on the 5 Day Forecast also.",
-        "image": "https://github.com/eatontechnology/My-Weather-Dashboard/blob/main/assets/media/challenge%20gif.gif?raw=true",
-        "github": "https://github.com/eatontechnology/My-Weather-Dashboard",
-        "deployed": "https://eatontechnology.github.io/My-Weather-Dashboard/"
+        "image": "https://github.com/eaton-mess/My-Weather-Dashboard/blob/main/assets/media/challenge%20gif.gif?raw=true",
+        "github": "https://github.com/eaton-mess/My-Weather-Dashboard",
+        "deployed": "https://eaton-mess.github.io/My-Weather-Dashboard/"
     },
     {
         "id": 6,
         "title": "Password Generator",
         "description": "A webpage to create their own unique password from an array of letters (uppercase and lowercase), numbers and special characters.",
-        "image": "https://github.com/eatontechnology/Password-Generator/blob/main/_images/Screenshot%20of%20Final%20Prompt.png?raw=true",
-        "github": "https://github.com/eatontechnology/Password-Generator",
-        "deployed": "https://eatontechnology.github.io/Password-Generator/"
+        "image": "https://github.com/eaton-mess/Password-Generator/blob/main/_images/Screenshot%20of%20Final%20Prompt.png?raw=true",
+        "github": "https://github.com/eaton-mess/Password-Generator",
+        "deployed": "https://eaton-mess.github.io/Password-Generator/"
     },
     {
         "id": 7,
@@ -59,8 +59,8 @@
         "id": 8,
         "title": "Horiseon Code Refactor",
         "description": "This repository aims to simplify, condense and streamline both the existing HTML and CSS so that the remaining code has ease of use and can be easily read/edited for further use.",
-        "image": "https://github.com/eatontechnology/horiseon-code-refactor/blob/main/assets/images/Header%20Starter%20Code%20.png?raw=true",
-        "github": "https://github.com/eatontechnology/horiseon-code-refactor",
-        "deployed": "https://eatontechnology.github.io/horiseon-code-refactor/"
+        "image": "https://github.com/eaton-mess/horiseon-code-refactor/blob/main/assets/images/Header%20Starter%20Code%20.png?raw=true",
+        "github": "https://github.com/eaton-mess/horiseon-code-refactor",
+        "deployed": "https://eaton-mess.github.io/horiseon-code-refactor/"
     }
 ]
